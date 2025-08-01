@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:brown;
+            --custom-width:330px;
+        }
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: aquamarine;
+            width: var(--custom-width);
+            height: 330px;
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+            box-shadow: 10px 60px var(--primary-color);
+           /* box-shadow: 10px 15px 50px brown;*/
+          /* box-shadow: 10px 15px 5px 10px brown;*/
+          /*box-shadow: inset 10px 15px brown;*/
+          /*box-shadow: 10px 115px red, 15px 8px green;*/
+
+
+
+        }
+        img{
+            height: 60px;
+            width: 60px;
+            margin: 2px;
+            padding: 2px;
+        }
+        #head1{
+           /* text-shadow: 12px 13px 1px white;*/
+          /* text-shadow: yellow 12px 13px 2px;*/
+          /*text-shadow: white 12px 13px;*/
+          /*text-shadow: 12px 13px;*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="box">
+        <img src="rose.jpg">
+        <h2 id="head1">welcome to codehelp</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque debitis id, perferendis aliquid, voluptatibus
+            pariatur error eveniet dicta illum totam numquam velit eligendi dolorem ipsum quibusdam expedita,
+            accusantium sed deleniti dignissimos quos rem quas nemo fugit. Quasi dicta voluptate, aliquid dignissimos
+            dolor nulla illo quibusdam veritatis ipsa repellat soluta quam?</p>
+
+    </div>
+</div>
+</body>
+
+</html>
